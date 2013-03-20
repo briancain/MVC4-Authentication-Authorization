@@ -1,0 +1,10 @@
+<userdata>
+    <htmlparse.UserList><username>csUndergrad</username>csUndergrad<password></password></htmlparse.UserList>
+    <htmlparse.UserList><username>seUndergrad</username><password>seUndergrad</password></htmlparse.UserList>
+    <htmlparse.UserList><username>isUndergrad</username><password>isUndergrad</password></htmlparse.UserList>
+    <htmlparse.UserList><username>advisor</username><password>advisor</password></htmlparse.UserList>
+    <htmlparse.UserList><username>admin</username><password>admin</password></htmlparse.UserList>
+    <htmlparse.UserList><username>msGrad</username><password>msGrad</password></htmlparse.UserList>
+    <htmlparse.UserList><username>mseGrad</username><password>mseGrad</password></htmlparse.UserList>
+    <htmlparse.UserList><username>phdGrad</username><password>phdGrad</password></htmlparse.UserList>
+</userdata>
