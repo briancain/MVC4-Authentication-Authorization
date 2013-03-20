@@ -15,6 +15,7 @@ namespace TestApp.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Administrator")]
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";
@@ -22,6 +23,7 @@ namespace TestApp.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Students")]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
