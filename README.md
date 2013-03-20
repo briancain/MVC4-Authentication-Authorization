@@ -13,7 +13,9 @@ If you are curious about the user seed data, please check out the Configuration.
 
 The seed data was stored as an xml file, and it is expected to be like {username,password}. Obviously, the example data is not secure. It would be best to force users to change passwords on first log in, but this is for demos sake.
 
-All passwords should be salted and hashed correctly through the SimpleMembershipProvider function provided by ASP.NET, which uses the Crypto.HashPassword method. As stated by the Microsoft documentation, "The password hash is generated with the RFC 2898 algorithm using a 128-bit salt, a 256-bit subkey, and 1000 iterations. The format of the generated hash bytestream is {0x00, salt, subkey}, which is base-64 encoded before it is returned."
+All passwords should be salted and hashed correctly through the SimpleMembershipProvider function provided by ASP.NET, which uses the Crypto.HashPassword method. As stated by the Microsoft documentation: 
+
+    "The password hash is generated with the RFC 2898 algorithm using a 128-bit salt, a 256-bit subkey, and 1000 iterations. The format of the generated hash bytestream is {0x00, salt, subkey}, which is base-64 encoded before it is returned."
 
 References:
 
